@@ -16,6 +16,6 @@ The script checks all four sources every hour. If any condition is triggered, it
    - `app_password_here`: with a Gmail App Password
 3. Good to go
 
-APIs used
+## APIs used
 - [National Weather Service API](https://www.weather.gov/documentation/services-web-api)
 - [Open-Meteo](https://open-meteo.com/)
