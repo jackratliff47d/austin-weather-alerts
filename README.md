@@ -10,13 +10,12 @@ checks for,
 The script checks all four sources every hour. If any condition is triggered, it sends a summary email via Gmail.
 
 ## Setup
-1. Install: `pip install -r requirements.txt`
-2. Copy `.env.example` to `.env`
-3. Fill in your Discord bot token and channel ID in `.env`:
-   - Get a bot token from https://discord.com/developers/applications
-   - Get your channel ID by enabling Developer Mode in Discord, then
-     right-clicking the target channel → Copy Channel ID
-4. Run the bot
+1. Install dependencies: pip install requests
+2. Replace the placeholder values:
+- email_here: your Gmail address
+- app_password_here: with a Gmail App Password
+3. Good to go
+
 
 ## APIs used
 - [National Weather Service API](https://www.weather.gov/documentation/services-web-api)
