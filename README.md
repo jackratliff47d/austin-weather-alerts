@@ -1,5 +1,5 @@
 # Austin Weather Alerts
-A Python script that monitors weather conditions for Austin, TX, and sends an email alert when certain thresholds are met.
+A Discord bot that monitors weather conditions for Austin, TX, and sends alerts when certain thresholds are met, and a daily forecast in the morning.
 
 checks for,
 - Severe weather alerts via the National Weather Service API
@@ -7,7 +7,7 @@ checks for,
 - High chance of rain via Open-Meteo
 - Poor air quality via Open-Meteo Air Quality API
 
-The script checks all four sources every hour. If any condition is triggered, it sends a summary email via Gmail.
+The script checks all four sources every hour. If any condition is triggered, it sends an alert.
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
